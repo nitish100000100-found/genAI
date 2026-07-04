@@ -1,21 +1,35 @@
+# ==========================
 # LangChain Core
+# ==========================
 langchain
 langchain-core
- 
+langchain-ollama
 
-#For Groq Api 
+# ==========================
+# Groq
+# ==========================
+langchain-groq
 
-langchain_groq
-
-# Hugging Face Integration
+# ==========================
+# Hugging Face
+# ==========================
 langchain-huggingface
-transformers
 huggingface-hub
+transformers
+torch
+accelerate
+sentencepiece
 
-# Environment Variable Management
+# ==========================
+# Environment Variables
+# ==========================
 python-dotenv
 
-# Machine Learning Utilities
+# ==========================
+# Machine Learning
+# ==========================
 numpy
 scikit-learn
+
+
 
